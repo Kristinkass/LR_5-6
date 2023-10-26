@@ -9,7 +9,7 @@ begin
     a[i]:=random(100)-50;
   writeln('Исходный массив:');
   for i:=1 to n do
-    write(a[i],'');
+    write(a[i],' ');
   j:=1;
   for i:=1 to n do
   begin
@@ -24,6 +24,6 @@ begin
   writeln;
   writeln('Массив после удаления отрицательных элементов:');
   for i:=1 to n do
-    write(a[i],'');
+    write(a[i],' ');
   readln; 
 end.
