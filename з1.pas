@@ -1,4 +1,5 @@
-﻿var
+program z9;
+var
   a: array[1..100] of integer;
   n, s: integer;
   i: byte;
